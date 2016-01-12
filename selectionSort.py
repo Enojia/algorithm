@@ -1,7 +1,7 @@
 ##selection sort algo
 
 def selectionSort(array):
-    for i in range(0,len(array)):
+    for i in range(0,len(array)-1):
         key = array[i]
 
         for j in range(i+1, len(array)):

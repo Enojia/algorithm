@@ -1,10 +1,10 @@
 ##merge sort
-import vimpdb
+##import vimpdb
 
 def merge_sort(array, p, r):
-    if p<r:
-        q = (r+p)//2
-        merge_sort(array, p, q)
+    if p<r:                          ##n
+        q = (r+p)//2                 ##n
+        merge_sort(array, p, q)      
         merge_sort(array, q+1, r)
         #vimpdb.set_trace()
         merge(array, p, q, r)
